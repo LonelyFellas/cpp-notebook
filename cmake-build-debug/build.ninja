@@ -61,12 +61,15 @@ build CMakeFiles/untitled3.dir/Unit1/index.cpp.o: CXX_COMPILER__untitled3_unscan
   OBJECT_DIR = CMakeFiles/untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled3.dir/Unit1
 
+<<<<<<< HEAD
 build CMakeFiles/untitled3.dir/leetcode/leetcode.cpp.o: CXX_COMPILER__untitled3_unscanned_Debug /Users/darwish/CLionProjects/untitled3/leetcode/leetcode.cpp || cmake_object_order_depends_target_untitled3
   DEP_FILE = CMakeFiles/untitled3.dir/leetcode/leetcode.cpp.o.d
   FLAGS = -g -std=gnu++2b -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk -fcolor-diagnostics
   OBJECT_DIR = CMakeFiles/untitled3.dir
   OBJECT_FILE_DIR = CMakeFiles/untitled3.dir/leetcode
 
+=======
+>>>>>>> bcabfd3aea6cfe2fbcc60a03777c44ba9ba22d05
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled3
@@ -75,7 +78,11 @@ build CMakeFiles/untitled3.dir/leetcode/leetcode.cpp.o: CXX_COMPILER__untitled3_
 #############################################
 # Link the executable untitled3
 
+<<<<<<< HEAD
 build untitled3: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/main.cpp.o CMakeFiles/untitled3.dir/Unit1/index.cpp.o CMakeFiles/untitled3.dir/leetcode/leetcode.cpp.o
+=======
+build untitled3: CXX_EXECUTABLE_LINKER__untitled3_Debug CMakeFiles/untitled3.dir/main.cpp.o CMakeFiles/untitled3.dir/Unit1/index.cpp.o
+>>>>>>> bcabfd3aea6cfe2fbcc60a03777c44ba9ba22d05
   FLAGS = -g -arch arm64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX14.0.sdk
   OBJECT_DIR = CMakeFiles/untitled3.dir
   POST_BUILD = :
